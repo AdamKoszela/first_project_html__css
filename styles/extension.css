@@ -1,8 +1,8 @@
 .header__block {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 50px;
-    margin: 10px;
   }
   .header__block--logo {
     width: 50px;
@@ -10,6 +10,7 @@
   }
   .nav {
     margin-left: auto;
+    height: 314px;
   }
   .nav li {
     margin-right: 1px;
