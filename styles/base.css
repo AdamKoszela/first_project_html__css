@@ -15,7 +15,8 @@ body {
   width: 100%;
 }
 .block {
-  max-width: 500px;
+  min-width: 350px;
+  max-width: 1150px;
   margin: 0px;
   padding: 0px;
   outline-color: white;
