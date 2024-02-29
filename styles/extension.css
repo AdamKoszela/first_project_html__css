@@ -36,9 +36,20 @@
   .main__container--article {
     width: 50%;
     margin: 10px;
-    padding-bottom: 100px;
+    outline: 3px solid;
   }
   .main__container--ads {
-    width: 48%
+    align-items: center;
+    rotate: -10deg;
+   
+    
   }
+ .ads__img {
+  background-color: white;
+  outline: 5px solid;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+ }
+
   
