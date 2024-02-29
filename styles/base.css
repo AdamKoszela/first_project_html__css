@@ -11,17 +11,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   width: 100%;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.block {
-  min-width: 350px;
+.block { 
   max-width: 1150px;
-  margin: 0px;
-  padding: 0px;
-  outline-color: white;
-  margin: 5px;
-    padding: 5px;
+ 
     outline: 3px solid;
 }
 .header {
@@ -51,4 +50,10 @@ body {
 .footer__container {
   background-color: rgb(70, 70, 70);
   height: 50px;
+}
+.light {
+  font-weight: 300;
+}
+.bold {
+  font-weight: 600;
 }

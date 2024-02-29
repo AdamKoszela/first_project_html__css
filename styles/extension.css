@@ -21,30 +21,36 @@
     color: rgb(250, 250,250);
     font-size: 8px;
   }
-  .main_title {
-    font-size: 16px;
-    color: rgb(250, 250,250);
-
-  }
+  
   .main__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
     height: 314px;
   }
   .main__container--article {
-    width: 50%;
-    margin: 10px;
+    width: 48%;
     outline: 3px solid;
+  }
+  .article__title {
+    font-size: 16px;
+    color: rgb(250, 250,250);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    max-width: 220px;
+  }
+  .article__text {
+    font-size: 10px;
+    color: rgb(250, 250,250);
   }
   .main__container--ads {
     align-items: center;
     rotate: -10deg;
-   
-    
+    width: 48%;
   }
  .ads__img {
+  width: 200px;
+  height: 150px;
   background-color: white;
   outline: 5px solid;
   color: white;
