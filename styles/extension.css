@@ -97,6 +97,21 @@
   background-color: white;
   border-radius: 20px;
  }
- .
+ .table {
+  height: 75px;
+  width: 50px;
+  align-items: center;
+ }
+ .table__title {
+  font-size: 5px;
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+ }
+ .table__text {
+  font-size: 5px;
+  text-align: center;
+ }
+ 
 
   
