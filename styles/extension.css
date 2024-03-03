@@ -136,9 +136,16 @@
 }
 .article__second {
   width: 48%;
-  margin-left: 5px;
+  padding-left: 75px;
+  padding-top: 50px;
 }
 .article__second_title {
   font-size: 20px;
-  
+  white-space: nowrap;
+  padding-bottom: 20px;
+}
+.article__second_text {
+  font-size: 10px;
+  max-width: 235px;
+  line-height: 15px;
 }
