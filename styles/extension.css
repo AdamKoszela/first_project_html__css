@@ -146,6 +146,22 @@
 }
 .article__second_text {
   font-size: 10px;
+  font-weight: 100;
   max-width: 235px;
   line-height: 15px;
+}
+.main__bar_title {
+  font-size: 18px;
+  text-align: center;
+  white-space: nowrap;
+}
+.main__bar_text {
+  font-size: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+.price__list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
