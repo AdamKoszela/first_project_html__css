@@ -150,10 +150,18 @@
   max-width: 235px;
   line-height: 15px;
 }
+.price__main_bar {
+  height: 100px;
+  align-items: center;
+}
 .main__bar_title {
+  display: flex;
+  justify-content: end;
   font-size: 18px;
   text-align: center;
   white-space: nowrap;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 .main__bar_text {
   font-size: 10px;
@@ -164,4 +172,24 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  align-items: center;
+  padding-top: 40px;
+}
+.list__first {
+  width: 75px;
+  padding-top: 10px;
+  align-items: center;
+}
+.first__title {
+  font-size: 20px;
+}
+.list__second {
+  width: 75px;
+  padding-top: 10px;
+  align-items: center;
+}
+.list__third {
+  width: 75px;
+  padding-top: 10px;
+  align-items: center;
 }
