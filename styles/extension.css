@@ -179,17 +179,30 @@
   width: 75px;
   padding-top: 10px;
   align-items: center;
+  text-align: center;
 }
-.first__title {
-  font-size: 20px;
+.list__title {
+  font-size: 9px;
+}
+.list__offer {
+  font-size: 7px;
 }
 .list__second {
   width: 75px;
   padding-top: 10px;
   align-items: center;
+  text-align: center;
+
 }
 .list__third {
   width: 75px;
   padding-top: 10px;
   align-items: center;
+  text-align: center;
+}
+.price {
+  font-size: 24px;
+}
+.month {
+  font-size: 5px;
 }
