@@ -175,6 +175,7 @@
   align-items: center;
   padding-top: 20px;
   padding-bottom: 50px;
+  margin: auto;
 }
 .list__first {
   width: 100px;
@@ -210,4 +211,16 @@
 }
 .month {
   font-size: 5px;
+  padding-bottom: 10px;
+}
+.price__button {
+  background-color: #0ABCEB;
+  border-radius: 10px;
+  border: 1px solid #0ABCEB;
+  width: 75px;
+  height: 25px;
+  color: white;
+  margin-top: 20px;
+  font-size: 8px;
+  white-space: nowrap;
 }
