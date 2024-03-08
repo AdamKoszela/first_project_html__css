@@ -173,9 +173,9 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 50px;
+  padding: 20px;
   margin: auto;
+  
 }
 .list__first {
   width: 100px;
