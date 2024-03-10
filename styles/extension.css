@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   height: 50px;
+  margin: auto;
 }
 .header__block--logo {
   width: 50px;
@@ -28,6 +29,7 @@
   align-items: center;
   height: 314px;
   padding-bottom: 95px;
+  margin: auto;
 }
 .main__container--article {
   width: 48%;
@@ -132,7 +134,11 @@
   width: 48%;
   height: auto;
   align-items: center;
-  margin-left: 15px;
+  margin:auto;
+}
+.article__one--img {
+  max-width: 300px;
+  max-height: 300px;
 }
 .article__second {
   width: 48%;
@@ -153,6 +159,7 @@
 .price__main_bar {
   height: 100px;
   align-items: center;
+  margin: auto;
 }
 .main__bar_title {
   display: flex;
@@ -230,8 +237,9 @@
   font-size: 18px;
   text-align: center;
   white-space: nowrap;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin: auto;
 }
 .team__catalog {
   display: flex;
@@ -239,11 +247,37 @@
   margin: auto;
 }
 .team-member {
-  height: 150px;
-  width: 75px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 288px;
+  width: 130px;
+  align-items: center;
+  padding-top: 20px;
 }
 .team__img {
   width: 50px;
   height: 50px;
 }
-
+.member__title {
+  font-size: 10px;
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+.member__name {
+  font-size: 8px;
+  padding-bottom: 4px;
+}
+.member__description {
+  font-size: 7px;
+  white-space: nowrap;
+  padding-bottom: 4px;
+}
+.member__contact {
+  height: 7px;
+  width: auto;
+}
+.team__small--img {
+  height: 7px;
+  width: 7px;
+}
