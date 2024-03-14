@@ -21,7 +21,7 @@ body {
 .block {
   min-width: 255px;
   max-width: 1150px;
-  outline: 3px solid;
+
 }
 .header {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
